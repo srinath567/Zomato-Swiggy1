@@ -1,4 +1,4 @@
-# Zomato Chronicles
+# Zomato-swiggy
 
 ## Introduction
 Zomato Chronicles is a Django project that simulates an online food ordering system. It allows users to browse available dishes, add them to their cart, place orders, and track their order history. This project demonstrates the implementation of a food delivery platform using Django, complete with user authentication, database models, and a responsive user interface.
