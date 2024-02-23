@@ -109,8 +109,3 @@ The project uses Django's built-in User model for user authentication.
 - HTML/CSS
 - Bootstrap
 
-## Contributing
-Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
