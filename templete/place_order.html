@@ -1,0 +1,33 @@
+
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Items</title>
+  <link rel="stylesheet" href="{% static 'css/cart.css' %}">
+</head>
+<body>
+<div class='container'>
+    <div class='window'>
+      <div class='order-info'>
+        <div class='order-info-content'>
+          <h2>Confirm Order</h2>
+          <p>Total Price: Rs.{{ total_price }}</p>
+          <p>Click the "Confirm Order" button to place your order.</p>
+          <form method="post">
+              {% csrf_token %}
+              <button type="submit" class="btn btn-primary">Confirm Order</button>
+          </form>
+            
+            {% comment %} <p>Total Price: Rs.{{ total_price }}</p>
+            <a href="{% url 'place_order' %}" class="button">Place Order</a> {% endcomment %}
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html> 
